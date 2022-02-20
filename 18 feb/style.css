@@ -1,0 +1,15 @@
+tr:nth-child(2n+1){
+    background-color: lightgray;
+}
+tr:nth-child(2n){
+    background-color: gray;
+}
+tr:nth-child(3n){
+    background-color: darkgray;
+}
+table,th,td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
